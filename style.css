@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 70px;
+}
+
+.mb-logo {
+  height: 30px;
+}
+
+.nav-bar {
+  background-color: #ffded6;
+  height: 30px;
+  width: 100%;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.sm-title {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: monospace;
+  margin-left: 5px;
+}
+
+.right-fabs {
+  display: flex;
+  margin-left: 600px;
+}
+
+.right-fabs div {
+  margin: 5px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 4fr 3fr 4fr;
+  margin-bottom: 15px;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 10px;
+  padding-top: 30px;
+}
+
+.middle-title {
+  text-align: center;
+}
+
+.middle {
+  height: 50px;
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.simple {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.new-recipes {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.show-me {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  padding-top: 20px;
+}
+
+.food-photos {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.picture-1,
+.picture-2,
+.picture-3 {
+  height: 400px;
+  max-width: 300px;
+  padding-top: 5px;
+  margin: 10px;
+}
+
+.recipe-titles {
+  display: flex;
+  flex: auto;
+  text-align: center;
+  font-size: 15px;
+}
